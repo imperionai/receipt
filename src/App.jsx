@@ -121,10 +121,10 @@ export default function App() {
         </div>
       </header>
 
-      <div style={{maxWidth:1140,margin:"0 auto",color: "#000",padding:"28px 16px",display:"grid",gridTemplateColumns:receipt?"1fr 1fr":"580px 1fr",gap:28,alignItems:"start"}}>
+      <div style={{maxWidth:1140,margin:"0 auto",padding:"28px 16px",display:"grid",gridTemplateColumns:receipt?"1fr 1fr":"580px 1fr",gap:28,alignItems:"start"}}>
         {/* FORM */}
         <div style={{background:"#fff",borderRadius:4,padding:28,border:"1px solid #ddd",boxShadow:"0 1px 6px rgba(0,0,0,0.06)"}}>
-          <h2 style={{fontSize:15,fontWeight:700,borderBottom:"2px solid #111",paddingBottom:8,marginTop:0,marginBottom:22,letterSpacing:2}}>NEW RECEIPT</h2>
+          <h2 style={{fontSize:15,fontWeight:700,color: "#000",borderBottom:"2px solid #111",paddingBottom:8,marginTop:0,marginBottom:22,letterSpacing:2}}>NEW RECEIPT</h2>
 
           <div style={{display:"grid",gap:14}}>
             {/* Student Name */}
