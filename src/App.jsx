@@ -98,8 +98,19 @@ export default function App() {
       const phone = receipt.phone.replace(/\D/g,"");
       const waNumber = "91" + phone;
       const waMsg = encodeURIComponent(
-        `Greetings from Arjuna Sports Club 🏸\n\Where Champions Begin — Proudly the No. 1 Sports Arena in the Locality 🏆\n\Thank you for your payment. Please find the receipt attached for your reference.\n\Kindly review the details, and feel free to contact us for any clarification or assistance.\n\Your support and trust motivate us to keep delivering the best sporting experience! 💪\n\Warm regards,\n\Team Arjuna Sports Club`
-      );
+  `Greetings from Arjuna Sports Club 🏸
+
+Where Champions Begin — Proudly the No. 1 Sports Arena in the Locality 🏆
+
+Thank you for your payment. Please find the receipt attached for your reference.
+
+Kindly review the details, and feel free to contact us for any clarification or assistance.
+
+Your support and trust motivate us to keep delivering the best sporting experience! 💪
+
+Warm regards,
+Team Arjuna Sports Club`
+);
       window.open(`https://wa.me/${waNumber}?text=${waMsg}`, "_blank");
     } catch(ex) {
       alert("PDF generation failed: "+ex.message);
