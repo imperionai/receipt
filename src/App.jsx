@@ -101,13 +101,13 @@ export default function App() {
   [
     "Greetings from Arjuna Sports Club 🏸",
     "",
-    "Where Champions Begin - Proudly the No. 1 Sports Arena in the Locality 🏆",
+    "Where Champions Begin - Proudly the No. 1 Sports Arena in the Locality ",
     "",
     "Thank you for your payment. Please find the receipt attached for your reference.",
     "",
     "Kindly review the details, and feel free to contact us for any clarification or assistance.",
     "",
-    "Your support and trust motivate us to keep delivering the best sporting experience! 💪",
+    "Your support and trust motivate us to keep delivering the best sporting experience! ",
     "",
     "Warm regards,",
     "Team Arjuna Sports Club"
