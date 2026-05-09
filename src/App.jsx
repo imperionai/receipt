@@ -99,7 +99,7 @@ export default function App() {
       const waNumber = "91" + phone;
       const waMsg = encodeURIComponent(
   [
-    "Greetings from Arjuna Sports Club 🏸",
+    "Greetings from Arjuna Sports Club ",
     "",
     "Where Champions Begin - Proudly the No. 1 Sports Arena in the Locality ",
     "",
