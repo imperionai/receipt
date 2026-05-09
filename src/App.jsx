@@ -99,15 +99,15 @@ export default function App() {
       const waNumber = "91" + phone;
       const waMsg = encodeURIComponent(
   [
-    "Greetings from Arjuna Sports Club \u{1F3F8}",
+    "Greetings from Arjuna Sports Club \uD83C\uDFBE", // 🏸
     "",
-    "Where Champions Begin - Proudly the No. 1 Sports Arena in the Locality \u{1F3C6}",
+    "Where Champions Begin - Proudly the No. 1 Sports Arena in the Locality \uD83C\uDFC6", // 🏆
     "",
     "Thank you for your payment. Please find the receipt attached for your reference.",
     "",
     "Kindly review the details, and feel free to contact us for any clarification or assistance.",
     "",
-    "Your support and trust motivate us to keep delivering the best sporting experience! \u{1F4AA}",
+    "Your support and trust motivate us to keep delivering the best sporting experience! \uD83D\uDCAA", // 💪
     "",
     "Warm regards,",
     "Team Arjuna Sports Club"
